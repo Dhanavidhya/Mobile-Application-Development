@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="149dp"
+        android:layout_y="26dp"
+        android:text="VCET"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="90dp"
+        android:layout_y="73dp"
+        android:text="Student Detials"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="153dp"
+        android:text="Enter Rollno:"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/Rollno"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="167dp"
+        android:layout_y="133dp"
+        android:inputType="number"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="217dp"
+        android:text="Enter Name:"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="171dp"
+        android:layout_y="198dp"
+        android:inputType="text"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="280dp"
+        android:text="Enter Marks:"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/Marks"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="175dp"
+        android:layout_y="266dp"
+        android:inputType="number"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/Insert"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="381dp"
+        android:text="Insert"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/Delete"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_x="205dp"
+        android:layout_y="383dp"
+        android:text="Delete"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/Update"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="496dp"
+        android:text="Update"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/View"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="213dp"
+        android:layout_y="493dp"
+        android:text="View"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/ViewAll"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_x="99dp"
+        android:layout_y="616dp"
+        android:text="View All"
+        android:textSize="30dp" />
+</AbsoluteLayout>
